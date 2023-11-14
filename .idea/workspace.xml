@@ -4,85 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c86538-6c98-4dcf-919b-820c79cc13df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/ExceptionEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/ApplicationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helper/ServiceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/AdminManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/BrandManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/CategoryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/LoginManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/MainManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/OrderManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/ProductManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/UserManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/IAdminManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/IBrandManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/ICategoryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/ILoginManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/IMainManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/IOrderManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/IProductManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/management/impl/IUserManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/config/RepositoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/ProductDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/Trendyol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/enums/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/exception/GeneralException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BrandRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/TrendyolRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/IBrandRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/ICartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/ICategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/IOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/IProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/ITrendyolRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/impl/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/TrendyolService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/IBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/ICartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/ITrendyolService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/InputUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/MenuUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/entity/Brands.java" afterDir="false" />
-    </list>
+    <list default="true" id="20c86538-6c98-4dcf-919b-820c79cc13df" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,6 +169,23 @@
       <workItem from="1699547796500" duration="4585000" />
       <workItem from="1699608521483" duration="19192000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1700000747276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700000747276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1700001491487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700001491487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,5 +204,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
