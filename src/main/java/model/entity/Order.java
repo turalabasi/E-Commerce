@@ -22,6 +22,6 @@ public class Order {
     private String address;
     private BigDecimal totalPrice;
     private String phone;
-    @ManyToMany(fetch = FetchType.LAZY)
+    @OneToMany(fetch = FetchType.LAZY)
     private List<Product> products;
 }
